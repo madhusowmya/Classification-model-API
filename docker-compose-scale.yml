@@ -1,8 +1,14 @@
-version: '3'
+version: '3.8'
 
 services:
   web:
-    scale: 1
-    min_scale: 1
-    max_scale: 5
-    command: gunicorn -w 4 -b 0.0.0.0:5000 run_api:app
+    image: class-prediction:latest
+    deploy:
+      replicas: 3  # Initial number of replicas
+      resources:
+        limits:
+          cpus: '0.75'  # Cutoff at 75% of CPU resources
+        reservations:
+          cpus: '0.5'   # Initial reservation (50% of CPU resources)
+    ports:
+      - "1313:1313"
