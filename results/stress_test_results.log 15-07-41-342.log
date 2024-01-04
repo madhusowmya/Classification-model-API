@@ -1,0 +1,30 @@
+Request #1 - Successful Response (Status Code: ): 
+Request #2 - Successful Response (Status Code: ): 
+Request #3 - Successful Response (Status Code: ): 
+Request #4 - Successful Response (Status Code: ): 
+Request #5 - Successful Response (Status Code: ): 
+Request #6 - Successful Response (Status Code: ): 
+Request #7 - Successful Response (Status Code: ): 
+Request #8 - Successful Response (Status Code: ): 
+Request #9 - Successful Response (Status Code: ): 
+Request #10 - Successful Response (Status Code: ): 
+Request #1 - Successful Response (Status Code: ): [{"probability_positiveclass":0.7581280275,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":1}]
+Request #2 - Successful Response (Status Code: ): [{"probability_positiveclass":0.9339601764,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":1}]
+Request #3 - Successful Response (Status Code: ): [{"probability_positiveclass":0.9076411692,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":1}]
+Request #4 - Successful Response (Status Code: ): [{"probability_positiveclass":0.7160483137,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":1}]
+Request #5 - Successful Response (Status Code: ): [{"probability_positiveclass":0.4184235062,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":0}]
+Request #6 - Successful Response (Status Code: ): [{"probability_positiveclass":0.7269169511,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":1}]
+Request #7 - Successful Response (Status Code: ): [{"probability_positiveclass":0.8609558412,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":1}]
+Request #8 - Successful Response (Status Code: ): [{"probability_positiveclass":0.321464519,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":0}]
+Request #9 - Successful Response (Status Code: ): [{"probability_positiveclass":0.4966281295,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":0}]
+Request #10 - Successful Response (Status Code: ): [{"probability_positiveclass":0.1505824402,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":0}]
+Request #1 - Successful Response (Status Code: ): [{"probability_positiveclass":0.2905526569,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":0}]
+Request #2 - Successful Response (Status Code: ): [{"probability_positiveclass":0.8208346661,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":1}]
+Request #3 - Successful Response (Status Code: ): [{"probability_positiveclass":0.3346846437,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":0}]
+Request #4 - Successful Response (Status Code: ): [{"probability_positiveclass":0.6191964307,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":1}]
+Request #5 - Successful Response (Status Code: ): [{"probability_positiveclass":0.1537239149,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":0}]
+Request #6 - Successful Response (Status Code: ): [{"probability_positiveclass":0.0987025668,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":0}]
+Request #7 - Successful Response (Status Code: ): [{"probability_positiveclass":0.1080183237,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":0}]
+Request #8 - Successful Response (Status Code: ): [{"probability_positiveclass":0.7096693105,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":1}]
+Request #9 - Successful Response (Status Code: ): [{"probability_positiveclass":0.1647960312,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":0}]
+Request #10 - Successful Response (Status Code: ): [{"probability_positiveclass":0.7186920272,"selected_features":["x91","x58","x56","x44","x5","x81","x12","x62","x31","x53"],"predicted_class":1}]
