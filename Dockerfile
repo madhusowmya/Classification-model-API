@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Make port 5000 available to the world outside this container
-EXPOSE 1313
+EXPOSE 5000
 
 # Run the run_api.sh script when the container launches
-CMD ["bash", "run_api.sh"]
+CMD ["python","flaskapp.py"]

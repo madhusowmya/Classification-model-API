@@ -13,4 +13,4 @@ services:
         reservations:
           cpus: '0.5'
     ports:
-      - "1313:1313"
+      - "5000-5005:5000" 
