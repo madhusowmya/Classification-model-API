@@ -7,7 +7,8 @@ with warnings.catch_warnings():
 
 def transform_column(column):
     if column.name == 'x12':
-        column = pd.to_numeric(column.astype(str).str.replace('[$,()]', ''), errors='coerce')
+        column = pd.to_numeric(column.astype(str).str.replace('[$,()]', '', regex=True), errors='coerce')
+
     elif column.name == 'x63':
         column = pd.to_numeric(column.astype(str).str.replace('%', ''), errors='coerce') / 100.0
     return column

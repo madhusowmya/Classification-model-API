@@ -4,7 +4,7 @@ The main objective of this project is to Prepare the model deployment for produc
 
 That means for example, the below curl command with 1 to N rows the API should be able to handle either case with minimal impact to performance.The data passed in the below curl command must be able to process the same irrespective of the data size.
 
-curl --request POST --url http://localhost:8080/predict --header 'content-type: application/json' --data '{"x0": "-1.018506", "x1": "-4.180869", "x2": "5.70305872366547", "x3": "-0.522021597308617", ...,"x99": "2.55535888"}'
+curl --request POST --url http://localhost:1313/predict --header 'content-type: application/json' --data '{"x0": "-1.018506", "x1": "-4.180869", "x2": "5.70305872366547", "x3": "-0.522021597308617", ...,"x99": "2.55535888"}'
 
 Each of the 10,000 rows in the test dataset will be passed through an API call. This test can be individually made by passing the data(one row or two rows in data) in the curl command itself or the entire data of 10,000 rows passed through JSON file @data. The call could be a single batch call w/ all 10,000 rows, or 10,000 individual calls.
 

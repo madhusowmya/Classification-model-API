@@ -91,4 +91,6 @@ def predict_endpoint():
 
 
 if __name__ == '__main__':
-    app.run(debug=True,port=1313)
+    # app.run(host = "192.168.65.1",debug=True,port=1313)
+    # app.run(host = "172.17.0.2",debug=True,port=1313)
+    app.run(host = "0.0.0.0",debug=True,port=1313)
